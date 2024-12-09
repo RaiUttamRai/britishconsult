@@ -1,9 +1,9 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info" style="height: 100px">
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="#">
-          <img src="path-to-your-logo.png" alt="Logo" class="logo" />
+          <img src="/britishconsultancy/src/assets/logo.png" alt="Logo" class="logo" />
         </a>
   
         <!-- Toggler for small screens -->
@@ -54,7 +54,7 @@
   
   <style scoped>
   .logo {
-    height: 50px; /* Adjust height */
+    height: 50px; 
   }
   .navbar-nav .nav-link {
     color: white !important;
@@ -62,6 +62,9 @@
   }
   .navbar-nav .nav-link:hover {
     text-decoration: underline;
+  }
+  a{
+    font-size: 25px;
   }
   </style>
   

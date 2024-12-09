@@ -1,6 +1,8 @@
 <template>
   <div>
+    <Topbar/>
    <AppNavbar />
+   
    <router-view />
   </div>
   
@@ -8,12 +10,16 @@
 
 <script>
 
+import Topbar from './components/Topbar.vue';
 import AppNavbar from './NavigationBar/AppNavbar.vue';
-
+ 
 export default {
   name: 'App',
   components: {
-    AppNavbar
+    Topbar,
+    AppNavbar,
+    
+
   }
 }
 </script>
