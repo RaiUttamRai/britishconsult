@@ -3,6 +3,8 @@
     <Topbar/>
    <AppNavbar />
    
+   <hero-section/>
+   
    <router-view />
   </div>
   
@@ -12,12 +14,15 @@
 
 import Topbar from './components/Topbar.vue';
 import AppNavbar from './NavigationBar/AppNavbar.vue';
+import HeroSection from './NavigationBar/HeroSection.vue';
  
 export default {
   name: 'App',
   components: {
     Topbar,
     AppNavbar,
+     
+    HeroSection,
     
 
   }

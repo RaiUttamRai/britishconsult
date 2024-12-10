@@ -1,10 +1,24 @@
+<script>
+ 
+  export default {
+    name: "AppNavbar",
+    data(){
+      return{
+         
+      }
+    },
+  };
+  </script>
+  
+
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-info" style="height: 100px">
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="#">
-          <img src="/britishconsultancy/src/assets/logo.png" alt="Logo" class="logo" />
+          <img src="../assets/images/britishlogo.jpeg" alt="Logo" class="logo" />
         </a>
+         
   
         <!-- Toggler for small screens -->
         <button
@@ -46,23 +60,32 @@
     </nav>
   </template>
   
-  <script>
-  export default {
-    name: "AppNavbar",
-  };
-  </script>
   
   <style scoped>
+   
   .logo {
-    height: 50px; 
+    height: 100px;
+    margin-left: -120px;
   }
   .navbar-nav .nav-link {
-    color: white !important;
-    font-weight: 500;
-  }
-  .navbar-nav .nav-link:hover {
-    text-decoration: underline;
-  }
+  color: white !important;      
+  font-size: 20px;              
+  text-decoration: none;        
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;   
+  color: red !important;        
+}
+
+.navbar-nav .nav-link:focus {
+  outline: none;                
+}
+
+a {
+  font-size: 25px;
+}
+
   a{
     font-size: 25px;
   }
