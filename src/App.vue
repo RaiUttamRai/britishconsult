@@ -4,6 +4,7 @@
    <AppNavbar />
    <hero-section/>
    <features/>
+   <Appointment/>
    
    <router-view />
   </div>
@@ -14,6 +15,7 @@
 
 import Topbar from './components/Topbar.vue';
 import AppNavbar from './NavigationBar/AppNavbar.vue';
+import Appointment from './NavigationBar/appointment.vue';
 import Features from './NavigationBar/features.vue';
 import HeroSection from './NavigationBar/HeroSection.vue';
  
@@ -24,6 +26,8 @@ export default {
     AppNavbar,
     HeroSection,
     Features,
+    Appointment,
+
     
 
   }
