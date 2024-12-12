@@ -7,6 +7,7 @@
    <Appointment/>
    <whychoose/>
    <Call/>
+   <academic-goals/>
    
    <router-view />
   </div>
@@ -16,6 +17,7 @@
 <script>
 
 import Topbar from './components/Topbar.vue';
+import AcademicGoals from './NavigationBar/AcademicGoals.vue';
 import AppNavbar from './NavigationBar/AppNavbar.vue';
 import Appointment from './NavigationBar/appointment.vue';
 import Call from './NavigationBar/Call.vue';
@@ -33,6 +35,7 @@ export default {
     Appointment,
     Whychoose,
     Call,
+    AcademicGoals,
   }
 }
 </script>
