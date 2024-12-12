@@ -5,6 +5,7 @@
    <hero-section/>
    <features/>
    <Appointment/>
+   <whychoose/>
    
    <router-view />
   </div>
@@ -18,6 +19,7 @@ import AppNavbar from './NavigationBar/AppNavbar.vue';
 import Appointment from './NavigationBar/appointment.vue';
 import Features from './NavigationBar/features.vue';
 import HeroSection from './NavigationBar/HeroSection.vue';
+import Whychoose from './NavigationBar/whychoose.vue';
  
 export default {
   name: 'App',
@@ -27,6 +29,7 @@ export default {
     HeroSection,
     Features,
     Appointment,
+    Whychoose,
 
     
 
