@@ -6,6 +6,7 @@
    <features/>
    <Appointment/>
    <whychoose/>
+   <Call/>
    
    <router-view />
   </div>
@@ -17,6 +18,7 @@
 import Topbar from './components/Topbar.vue';
 import AppNavbar from './NavigationBar/AppNavbar.vue';
 import Appointment from './NavigationBar/appointment.vue';
+import Call from './NavigationBar/Call.vue';
 import Features from './NavigationBar/features.vue';
 import HeroSection from './NavigationBar/HeroSection.vue';
 import Whychoose from './NavigationBar/whychoose.vue';
@@ -30,9 +32,7 @@ export default {
     Features,
     Appointment,
     Whychoose,
-
-    
-
+    Call,
   }
 }
 </script>

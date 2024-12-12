@@ -75,6 +75,7 @@
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 40px;
+    color: black;
   }
   
   .section-title .highlight {
