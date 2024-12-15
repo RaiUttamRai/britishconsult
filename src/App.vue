@@ -8,6 +8,7 @@
    <whychoose/>
    <Call/>
    <academic-goals/>
+   <feedback/>
    
    <router-view />
   </div>
@@ -22,6 +23,7 @@ import AppNavbar from './NavigationBar/AppNavbar.vue';
 import Appointment from './NavigationBar/appointment.vue';
 import Call from './NavigationBar/Call.vue';
 import Features from './NavigationBar/features.vue';
+import Feedback from './NavigationBar/Feedback.vue';
 import HeroSection from './NavigationBar/HeroSection.vue';
 import Whychoose from './NavigationBar/whychoose.vue';
  
@@ -36,6 +38,7 @@ export default {
     Whychoose,
     Call,
     AcademicGoals,
+    Feedback,
   }
 }
 </script>
