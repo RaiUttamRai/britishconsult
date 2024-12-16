@@ -8,6 +8,7 @@
    <whychoose/>
    <Call/>
    <academic-goals/>
+   <top-destination/>
    <feedback/>
    
    <router-view />
@@ -25,6 +26,7 @@ import Call from './NavigationBar/Call.vue';
 import Features from './NavigationBar/features.vue';
 import Feedback from './NavigationBar/Feedback.vue';
 import HeroSection from './NavigationBar/HeroSection.vue';
+import TopDestination from './NavigationBar/TopDestination.vue';
 import Whychoose from './NavigationBar/whychoose.vue';
  
 export default {
@@ -38,7 +40,9 @@ export default {
     Whychoose,
     Call,
     AcademicGoals,
+    TopDestination,
     Feedback,
+    
   }
 }
 </script>
