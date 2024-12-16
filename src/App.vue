@@ -10,6 +10,7 @@
    <academic-goals/>
    <top-destination/>
    <feedback/>
+   <statitics-section/>
    
    <router-view />
   </div>
@@ -26,6 +27,7 @@ import Call from './NavigationBar/Call.vue';
 import Features from './NavigationBar/features.vue';
 import Feedback from './NavigationBar/Feedback.vue';
 import HeroSection from './NavigationBar/HeroSection.vue';
+import StatiticsSection from './NavigationBar/StatiticsSection.vue';
 import TopDestination from './NavigationBar/TopDestination.vue';
 import Whychoose from './NavigationBar/whychoose.vue';
  
@@ -42,6 +44,7 @@ export default {
     AcademicGoals,
     TopDestination,
     Feedback,
+    StatiticsSection,
     
   }
 }
