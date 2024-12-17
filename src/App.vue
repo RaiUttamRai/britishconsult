@@ -11,6 +11,7 @@
    <top-destination/>
    <feedback/>
    <statitics-section/>
+   <team-section/>
    
    <router-view />
   </div>
@@ -28,6 +29,7 @@ import Features from './NavigationBar/features.vue';
 import Feedback from './NavigationBar/Feedback.vue';
 import HeroSection from './NavigationBar/HeroSection.vue';
 import StatiticsSection from './NavigationBar/StatiticsSection.vue';
+import TeamSection from './NavigationBar/TeamSection.vue';
 import TopDestination from './NavigationBar/TopDestination.vue';
 import Whychoose from './NavigationBar/whychoose.vue';
  
@@ -45,6 +47,7 @@ export default {
     TopDestination,
     Feedback,
     StatiticsSection,
+    TeamSection,
     
   }
 }
