@@ -13,6 +13,7 @@
    <statitics-section/>
    <team-section/>
    <google-map/>
+   <ResponsiveFooter/>
    <router-view />
   </div>
   
@@ -29,6 +30,7 @@ import Features from './NavigationBar/features.vue';
 import Feedback from './NavigationBar/Feedback.vue';
 import GoogleMap from './NavigationBar/GoogleMap.vue';
 import HeroSection from './NavigationBar/HeroSection.vue';
+import ResponsiveFooter from './NavigationBar/ResponsiveFooter.vue';
 import StatiticsSection from './NavigationBar/StatiticsSection.vue';
 import TeamSection from './NavigationBar/TeamSection.vue';
 import TopDestination from './NavigationBar/TopDestination.vue';
@@ -50,6 +52,8 @@ export default {
     StatiticsSection,
     TeamSection,
     GoogleMap,
+    ResponsiveFooter,
+
     
   }
 }
