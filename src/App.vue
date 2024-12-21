@@ -12,7 +12,7 @@
    <feedback/>
    <statitics-section/>
    <team-section/>
-   
+   <google-map/>
    <router-view />
   </div>
   
@@ -27,6 +27,7 @@ import Appointment from './NavigationBar/appointment.vue';
 import Call from './NavigationBar/Call.vue';
 import Features from './NavigationBar/features.vue';
 import Feedback from './NavigationBar/Feedback.vue';
+import GoogleMap from './NavigationBar/GoogleMap.vue';
 import HeroSection from './NavigationBar/HeroSection.vue';
 import StatiticsSection from './NavigationBar/StatiticsSection.vue';
 import TeamSection from './NavigationBar/TeamSection.vue';
@@ -48,6 +49,7 @@ export default {
     Feedback,
     StatiticsSection,
     TeamSection,
+    GoogleMap,
     
   }
 }
