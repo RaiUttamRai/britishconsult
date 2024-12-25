@@ -4,68 +4,98 @@
 
 <template>
   <footer class="footer">
-    <div class="footer-container">
-      <!-- Information Section -->
-      <div class="footer-section">
-        <h3><b>INFORMATION</b></h3>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Course</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
+    <div class="video-container">
+      <video autoplay muted loop class="background-video">
+        <source src="../assets/images/water.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="footer-overlay">
+      <div class="footer-container">
+        <!-- Information Section -->
+        <div class="footer-section">
+          <h3><b>INFORMATION</b></h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
 
-      <!-- Study Abroad Section -->
-      <div class="footer-section">
-        <h3><b>STUDY ABROAD</b></h3>
-        <ul>
-          <li><a href="#">Study in Australia</a></li>
-          <li><a href="#">Study in Canada</a></li>
-          <li><a href="#">Study in South Korea</a></li>
-          <li><a href="#">Study in Europe</a></li>
-          <li><a href="#">Study in USA</a></li>
-        </ul>
-      </div>
+        <!-- Study Abroad Section -->
+        <div class="footer-section">
+          <h3><b>STUDY ABROAD</b></h3>
+          <ul>
+            <li><a href="#">Study in Australia</a></li>
+            <li><a href="#">Study in Canada</a></li>
+            <li><a href="#">Study in South Korea</a></li>
+            <li><a href="#">Study in Europe</a></li>
+            <li><a href="#">Study in USA</a></li>
+          </ul>
+        </div>
 
-      <!-- Help Section -->
-      <div class="footer-section">
-        <h3><b>HELP</b></h3>
-        <ul>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-        </ul>
-      </div>
+        <!-- Help Section -->
+        <div class="footer-section">
+          <h3><b>HELP</b></h3>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
 
-      <!-- Contact Us Section -->
-      <div class="footer-section contact-us">
-        <h3><b>CONTACT US</b></h3>
-        <img src="../assets/images/britishlogo.jpeg" alt="Contact Image" class="contact-image">
-        <p>Itahari</p>
-        <p>Email: info@example.com</p>
-        <p>Phone: +9779811005186/ 9852082384</p>
-        <div class="social-icons">
-          <a href="#" class="icon facebook"></a>
-          <a href="#" class="icon youtube"></a>
-          <a href="#" class="icon google"></a>
-          <a href="#" class="icon instagram"></a>
+        <!-- Contact Us Section -->
+        <div class="footer-section contact-us">
+          <h3><b>CONTACT US</b></h3>
+          <img src="../assets/images/britishlogo.jpeg" alt="Contact Image" class="contact-image">
+          <p>Itahari</p>
+          <p>Email: info@example.com</p>
+          <p>Phone: +9779811005186/ 9852082384</p>
+          <div class="social-icons">
+            <a href="#" class="icon facebook"></a>
+            <a href="#" class="icon youtube"></a>
+            <a href="#" class="icon google"></a>
+            <a href="#" class="icon instagram"></a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom">
-      &copy; 2023 Your Company. All rights reserved.
+      <div class="footer-bottom">
+        &copy; 2023 Your Company. All rights reserved.
+      </div>
     </div>
   </footer>
 </template>
 
 <style scoped>
 .footer {
-  background-color: #032146;
+  position: relative;
+  overflow: hidden;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer-overlay {
+  position: relative;
+  z-index: 1;
 }
 
 .footer-container {

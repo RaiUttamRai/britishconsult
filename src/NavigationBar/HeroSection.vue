@@ -30,7 +30,13 @@ export default {
 </script>
 
 <template>
-    <section class="hero-section">
+    <section class="hero-section"> 
+      <div class="video-container">
+      <video autoplay muted loop class="background-video">
+        <source src="../assets/images/wraps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
       <div class="container">
         <div class="row align-items-center">
           <!-- Left Section -->
@@ -44,7 +50,7 @@ export default {
           <div class="prepare" >
     <p style="color: black; margin-top: -50px; margin-left: -160px; font-size: 23px;">Prepare</p>
     <button
-      class="dynamic-button"
+      class="oval-button"
       :style="{ backgroundColor: currentColor }" 
     >
       {{ currentText }}
@@ -76,12 +82,27 @@ export default {
   <style scoped>
 /* Default styles for the section */
 .hero-section {
-  background: linear-gradient(to bottom, #87ceeb, #1e90ff);
   color: white;
   padding: 50px 0;
   position: relative;
   height: 600px;
 }
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 h2,
 p {
@@ -152,11 +173,29 @@ button:hover {
     transform: translateY(0);
   }
 }
- .dynamic-button{
-  font-size: 25px;
-  margin-left: 120px;
+.oval-button {
   margin-top: -50px;
-} 
+  padding: 10px 30px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 50px; /* Makes the button oval */
+}
+@media (max-width: 768px) {
+  .welcome-message h2 {
+    font-size: 18px;
+  }
+
+  .welcome-message p {
+    font-size: 14px;
+  }
+
+  .oval-button {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}
 
  
 </style>
