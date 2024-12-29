@@ -93,13 +93,13 @@ export default {
     return {
       director: {
         name: "Mr. Santosh Pokhrel",
-        image: require("@/assets/images/uttam.jpg"),
+        image: require("@/assets/images/santosh.jpeg"),
         message:
           "First and foremost, I would like to warmly greet all our valued students, parents, guardians, and the well-wishers. It is my immense pleasure to introduce myself...",
       },
       ceo: {
         name: "Mr. Uttam",
-        image: require("@/assets/images/hem.jpg"),
+        image: require("@/assets/images/narendra.jpg"),
         message:
           "First and foremost, I would like to warmly greet all our valued students, parents, guardians, and the well-wishers. It is my immense pleasure to introduce myself...",
       },
@@ -110,7 +110,7 @@ export default {
           name: "Mr. Watshal Bhattarai",
           designation: "British Education, Birtamode",
           location: "",
-          image: require("@/assets/images/uttam.jpg"),
+          image: require("@/assets/images/vatsal.jpg"),
           details:
             "Mr. Watshal Bhattarai oversees operations at British Education Birtamode with a focus on excellence.",
         },
@@ -126,15 +126,15 @@ export default {
           name: "Mr. HemRaj Rajbanshi",
           designation: "IT Officer",
           location: "",
-          image: require("@/assets/images/uttam.jpg"),
+          image: require("@/assets/images/hem.jpg"),
           details:
             "Mr. HemRaj Rajbanshi manages IT-related infrastructure across departments.",
         },
         {
-          name: "Mr. Demo (Designation)",
-          designation: "Designation",
+          name: "Ms. Krishtina Regmi",
+          designation: "Documentation Officer",
           location: "",
-          image: require("@/assets/images/uttam.jpg"),
+          image: require("@/assets/images/krish.jpg"),
           details: "This is a placeholder description for the demo member.",
         },
         {
